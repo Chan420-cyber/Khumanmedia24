@@ -1,0 +1,84 @@
+.body{
+   background-color: rgb(96, 96, 134);
+}
+ul {
+   list-style-type: none;
+   margin: 1;
+   padding: 1;
+   overflow: hidden;
+   background-color: rgb(90, 90, 128);
+ }
+ a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ a:hover {
+   background-color: #111;
+ }
+.home{
+   float: right;
+   font-size: large;
+}
+.font{
+   font-family: monospace;
+   text-align: center;
+   font-size: 350%;
+   color: rgb(229, 224, 214);
+}
+.box{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.box ul li{
+   width:150px;
+   float:left;
+   margin: 10px auto;
+   text-align: center;
+   Display: flex;
+   list-style:none;
+}
+.box ul li a{ text-decoration: none;
+   color:whitesmoke;
+ }
+
+.box ul li:hover{transition: 0.5s;
+}
+
+.box ul li a:hover{ color:rgb(211, 82, 211);
+}
+.image{
+   width: 900px;
+   height: 1300px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0cap;
+}
+a {
+   text-decoration: none;
+   display: inline-block;
+   padding: 8px 16px;
+}
+   a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+ 
+.next {
+   background-color: rgb(96, 96, 134);
+   color: black;
+   text-align: right;
+   background-color: #f1f1f1;
+    
+ }
+ .dunran{
+   text-align: right;
+ }
+ 
+
+ 
+ 
